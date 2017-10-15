@@ -1,7 +1,7 @@
 # 03ProjectW4
 Code repository for "Getting  and Cleaning Data" last project
 
-#Transformations made
+# Transformations made
 
 In order to obtain the tidy dataset, we made the following transformation to the original data:
 1) We retrieved features' names from "features.txt" and activity labels from "activity_labels.txt"

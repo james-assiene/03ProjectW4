@@ -1,8 +1,8 @@
-#Description of the original experiment
+# Description of the original experiment
 
 The original experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually.
 
-#Features list
+# Features list
 The  dataset contains the following features
 "1","subject_id" : the subject (volunteer) id
 "2","activity" : the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
@@ -91,7 +91,7 @@ each activity:
 "80","fBodyBodyGyroMag.std.."
 "81","fBodyBodyGyroJerkMag.std.."
 
-#Transformations made
+# Transformations made
 
 In order to obtain the tidy dataset, we made the following transformation to the original data:
 1) We retrieved features' names from "features.txt" and activity labels from "activity_labels.txt"
