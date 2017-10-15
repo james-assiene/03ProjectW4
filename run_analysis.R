@@ -1,5 +1,3 @@
-setwd("D:/Apprentissage/John Hopkins Data Science/Projects/getting_cleaning_data")
-
 features_df = read.csv("UCI HAR Dataset/features.txt", header = FALSE, sep = " ", col.names = c("id", "feature_name"))
 labels_df = read.csv("UCI HAR Dataset/activity_labels.txt", header = FALSE, sep = " ", col.names = c("id", "label_name"))
 
